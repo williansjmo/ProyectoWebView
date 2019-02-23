@@ -4,9 +4,13 @@
              xmlns:local="clr-namespace:TestWebView"
              x:Class="TestWebView.MainPage">
 
-    <StackLayout>
+    <StackLayout Margin="0">
         <!-- Place new controls here -->
-        <WebView x:Name="WebViewMaxtvonline" WidthRequest="1000" HeightRequest="1000" Source="https://maxtvonline.com/"></WebView>
+        <WebView x:Name="WebViewMaxtvonline" 
+                 WidthRequest="1000" 
+                 HeightRequest="1000" 
+                 Source="https://maxtvonline.com/">
+        </WebView>
     </StackLayout>
 
 </ContentPage>
